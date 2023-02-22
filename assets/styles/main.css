@@ -1,0 +1,19 @@
+.logo {
+    max-width: 10rem;
+}
+.btn-danger {
+    background-color: #d90368;
+
+}
+header {
+    text-align: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    background-color: #cfb698;
+    color: #401c2a;
+    padding: 2rem;
+}
+
+
