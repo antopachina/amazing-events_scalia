@@ -7,6 +7,9 @@ header {
     text-align: center;
     justify-content: center;
 }
+.bg-wine {
+    background-color: #960249;
+}
 h1 {
     text-align: center;
     padding: 2rem;
@@ -18,26 +21,32 @@ body {
 .flechas {
     max-width: 1rem;
 }
+.pad-4 {
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
 .checksearch {
     color: #ab6a6e;
-    padding-top: 2rem;
     padding-left: 3rem;
 }
 label {
     margin-right: 10px;
 }
 
+.card {
+    text-align: center;
+}
+.precio {
+    text-align: left;
+}
+.divider {
+    height: 1rem;
+}
 footer {
-    color: #353130;
+    padding-left: 5rem;
     padding-right: 5rem;
-    padding-left: 3rem;
 }
-header {
-    background-color: #960249;
-}
-.b-example-divider {
-    height: 3rem;
-    }
+
 
     /*paleta de colores
 #85847e petróleo
