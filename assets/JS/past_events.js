@@ -1,9 +1,13 @@
 console.log([document]);
-const divElementos = document.getElementById('elementos')
+const divElementos = document.getElementById('elementos');
 let tarjetas = ' '
-
-for(evento of data.events){
-    tarjetas += `<div class="card" style="width: 18rem;">
+const currentDate = new Date(data.currentDate);
+ console.log(currentDate);
+ for (let i = 0; i < data.events.length; i++) {
+    const evento = data.events[i];
+    const eventosDate = new Date(evento.date);
+    if (eventosDate < currentDate) {
+        tarjetas += `<div class="card" style="width: 18rem;">
         <img class="card-img-top object-fit-cover mw-100 h-75" src=${evento.image} alt="Card image cap">
             <div class="card-body justify-content-center align-items-center">
                 <h5 class="card-title">${evento.name}</h5>
@@ -17,4 +21,4 @@ for(evento of data.events){
             }
             console.log(tarjetas);
             divElementos.innerHTML = tarjetas
-   
+    }
