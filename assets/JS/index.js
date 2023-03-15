@@ -9,12 +9,11 @@ for(evento of data.events){
                 <p class="card-text">${evento.description}</p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center align-items-center">
                 <p>Price: $${evento.price}</p>
-                <a href="./details.html" class="btn btn-primary bg-wine">See more</a>
+                <a href="./details.html?id=${evento._id}" class="btn btn-primary bg-wine">Details</a>
                 </div>
             </div>
             </div>`
             }
             console.log(tarjetas);
+            console.log(evento._id);
             divElementos.innerHTML = tarjetas
-
-   

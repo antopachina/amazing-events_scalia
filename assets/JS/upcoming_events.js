@@ -14,7 +14,7 @@ const currentDate = new Date(data.currentDate);
                 <p class="card-text">${evento.description}</p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center align-items-center">
                 <p>Price: $${evento.price}</p>
-                <a href="./details.html" class="btn btn-primary bg-wine">See more</a>
+                <a href="./details.html?id=${evento._id}" class="btn btn-primary bg-wine">See more</a>
                 </div>
             </div>
             </div>`
