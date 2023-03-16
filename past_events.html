@@ -52,36 +52,11 @@
     <div class="divider"></div>
     <main class="container-fluid align-items-center">
         <div class="d-flex flex-wrap justify-content-between align-items-center pad-4">
-            <ul class="nav col-md-10 list-unstyled d-flex">
-                <li class="ms-3"><input type="checkbox" id="foodFair" name="position" value="foodFair">
-                    <label for="foodFair">Food Fair</label>
-                </li>
-                <li class="ms-3"><input type="checkbox" id="museum" name="position" value="museum">
-                    <label for="museum">Museum</label>
-                </li>
-                <li class="ms-3"><input type="checkbox" id="costumeParty" name="position" value="costumeParty">
-                    <label for="costumeParty">Costume Party</label>
-                </li>
-                <li class="ms-3"><input type="checkbox" id="musicConcert" name="position" value="musicConcert">
-                    <label for="musicConcert">Music Concert</label>
-                </li>
-                <li class="ms-3"><input type="checkbox" id="race" name="position" value="race">
-                    <label for="race">Race</label>
-                </li>
-                <li class="ms-3"><input type="checkbox" id="bookExchange" name="position" value="bookExchange">
-                    <label for="bookExchange">Book Exchange</label>
-                </li>
-                <li class="ms-3"><input type="checkbox" id="cinema" name="position" value="cinema">
-                    <label for="cinema">Cinema</label>
-                </li>
-                
-            </ul>
-            <div class="col-md-2 d-flex align-items-center justify-content-end">
-                <input class type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success bg-wine" type="submit"><img src="./assets/img/lupa.png" alt="lupa"
-                        class="bi" width="18" height="18"></button>
+            <ul id="checkFilter" class="nav col-md-10 list-unstyled d-flex"></ul>
+            <div class="d-flex align-items-end justify-content-end"></div>
+                <label for="search"></label>
+                <input type="text" name="search" id="search" placeholder="Search event">
             </div>
-        </div>
         <div class="divider"></div>
         <div id="elementos" class="d-flex flex-wrap gap-3 justify-content-center">
         </div>
